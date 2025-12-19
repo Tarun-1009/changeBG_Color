@@ -7,9 +7,7 @@ function App() {
   return (
     <>
       <div style={{backgroundColor:colour
-        ,height:'100%',
-        width:'100%',
-        display:'flex'
+        ,height:'98vh'
       }}>
         <div>
           <button onClick={() => setColour("red")}>RED</button>
@@ -19,10 +17,10 @@ function App() {
           <button onClick={() => setColour("purple")}>PURPLE</button>
           <button onClick={() => setColour("orange")}>ORANGE</button>
           <button onClick={() => setColour("pink")}>PINK</button>
-          <button onClick={() => setColour("olive")}>DARKBLUE</button>
-          <button onClick={() => setColour("teal")}>DARKGREEN</button>
-          <button onClick={() => setColour("white")}>DARKRED</button>
-          <button onClick={() => setColour("black")}>DARKPURPLE</button>
+          <button onClick={() => setColour("olive")}>OLIVE</button>
+          <button onClick={() => setColour("teal")}>TEAL</button>
+          <button onClick={() => setColour("white")}>WHITE</button>
+          <button onClick={() => setColour("black")}>BLACK</button>
         </div>
       </div>
     </>
