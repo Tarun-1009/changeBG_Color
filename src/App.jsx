@@ -6,10 +6,26 @@ function App() {
 
   return (
     <>
-      <div style={{backgroundColor:colour
-        ,height:'98vh'
+      <div style={{backgroundColor:colour,
+      height:'98vh',
+      display:'flex',
+      justifyContent:'center',
+      alignItems:'end'
       }}>
-        <div>
+        <div
+          style={{
+            marginBottom: '40px',
+            padding: '8px',
+            borderRadius: '9px',
+            width: '70%',
+            height: '9%',
+            display: 'flex',
+            backgroundColor:'lightgrey',
+            justifyContent:'space-around',
+            alignItems:'center'
+
+          }}
+        >
           <button onClick={() => setColour("red")}>RED</button>
           <button onClick={() => setColour("yellow")}>YELLOW</button>
           <button onClick={() => setColour("blue")}>BLUE</button>
